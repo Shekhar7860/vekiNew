@@ -1,0 +1,285 @@
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:172
+-keep class com.facebook.CustomTabMainActivity { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:74
+-keep class com.facebook.FacebookActivity { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:236
+-keep class com.facebook.internal.FacebookInitProvider { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:188
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:204
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:218
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:199
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:214
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:150
+-keep class com.google.firebase.auth.internal.FederatedSignInActivity { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:158
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:179
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:142
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:193
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:37
+-keep class com.onewayit.veki.action { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:86
+-keep class com.onewayit.veki.activities.LoginActivity { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:79
+-keep class com.onewayit.veki.activities.MapsActivity { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:99
+-keep class com.onewayit.veki.activities.MarkerDragActivity { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:102
+-keep class com.onewayit.veki.activities.RequestDetailsActivity { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:58
+-keep class com.onewayit.veki.activities.SplashScreen { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:112
+-keep class com.onewayit.veki.utilities.MyFirebaseMessagingService { <init>(); }
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:174
+-keep class com.squareup.picasso.PicassoProvider { <init>(); }
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout-watch-v20/abc_alert_dialog_title_material.xml:53
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_alert_dialog_title.xml:41
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_alert_dialog_actions.xml:45
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_alert_dialog.xml:51
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_alert_dialog_title_material.xml:57
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_popup_menu_item_layout.xml:17
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_list_menu_item_layout.xml:17
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_cascading_menu_item_layout.xml:20
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_screen_toolbar.xml:43
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_action_mode_bar.xml:19
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_alert_dialog.xml:17
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_alert_dialog_material.xml:18
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_role.xml:40
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_registeration.xml:40
+-keep class androidx.appcompat.widget.AppCompatCheckBox { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/00c79ff8f95addbcdb0d2307060e0889/res/layout/com_facebook_smart_device_dialog_fragment.xml:47
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/00c79ff8f95addbcdb0d2307060e0889/res/layout/com_facebook_device_auth_dialog_fragment.xml:45
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(...); }
+
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_verification_code.xml:38
+-keep class androidx.appcompat.widget.AppCompatTextView { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_alert_dialog_actions.xml:26
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_alert_dialog_title.xml:36
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_screen_simple.xml:17
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_dialog_title_material.xml:22
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_verification_code.xml:13
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_screen_toolbar.xml:36
+-keep class androidx.appcompat.widget.Toolbar { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_screen_simple.xml:25
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/5e62c08812aaab9939e85d1c46272cc0/res/layout/browser_actions_context_menu_page.xml:5
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/notifications_row_layout.xml:9
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/my_services.xml:7
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/my_request.xml:7
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_verify_otp.xml:46
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_role.xml:23
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_resetpassword.xml:23
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_request_details.xml:13
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_request_detail.xml:15
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_registeration.xml:23
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_proposal_received.xml:32
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_profile.xml:18
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_notification.xml:15
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_my_services.xml:16
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_my_requests.xml:11
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_my_proposals.xml:10
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_feedback.xml:2
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_email_login.xml:23
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/90eb7eccc5e6745dd9eb8bc5378d5faf/res/layout/fancygifdialog.xml:10
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/00c79ff8f95addbcdb0d2307060e0889/res/layout/com_facebook_smart_device_dialog_fragment.xml:22
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/00c79ff8f95addbcdb0d2307060e0889/res/layout/com_facebook_device_auth_dialog_fragment.xml:22
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/auto_complete_listitem.xml:8
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/add_services.xml:16
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/activity_request_detail.xml:18
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/activity_new_request.xml:28
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/activity_login.xml:11
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/activity_home.xml:17
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/activity_forgotpassword.xml:52
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/activity_drag_map.xml:8
+-keep class androidx.cardview.widget.CardView { <init>(...); }
+
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/feedback.xml:2
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/design_bottom_sheet_dialog.xml:26
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_alert_dialog.xml:40
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_proposal_received.xml:124
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/b9d5e361209f1f1731bd8d8bd701740e/res/layout/abc_alert_dialog_material.xml:41
+-keep class androidx.core.widget.NestedScrollView { <init>(...); }
+
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/activity_home.xml:2
+-keep class androidx.drawerlayout.widget.DrawerLayout { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_calendar_horizontal.xml:29
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_proposal_received.xml:131
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_notification.xml:73
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(...); }
+
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_my_services.xml:79
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_my_requests.xml:70
+-keep class androidx.viewpager.widget.ViewPager { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_calendar_viewpager.xml:18
+-keep class androidx.viewpager2.widget.ViewPager2 { <init>(...); }
+
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_proposal_received.xml:244
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/activity_home.xml:244
+-keep class com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar { <init>(...); }
+
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_request_details.xml:311
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_request_detail.xml:350
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_proposal_received.xml:84
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/activity_request_detail.xml:353
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/activity_home.xml:94
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/activity_drag_map.xml:45
+-keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/test_toolbar_surface.xml:16
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/test_toolbar_elevation.xml:16
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/test_toolbar_custom_background.xml:16
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/test_toolbar.xml:16
+-keep class com.google.android.material.appbar.MaterialToolbar { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_picker_header_fullscreen.xml:31
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_calendar_month_navigation.xml:27
+-keep class com.google.android.material.button.MaterialButton { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/test_reflow_chipgroup.xml:25
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/test_action_chip.xml:17
+-keep class com.google.android.material.chip.Chip { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/test_reflow_chipgroup.xml:19
+-keep class com.google.android.material.chip.ChipGroup { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/design_bottom_navigation_item.xml:27
+-keep class com.google.android.material.internal.BaselineLayout { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_picker_header_toggle.xml:18
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/design_text_input_start_icon.xml:18
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/design_text_input_end_icon.xml:18
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/design_navigation_item.xml:17
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/design_navigation_menu.xml:17
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(...); }
+
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/activity_home.xml:309
+-keep class com.google.android.material.navigation.NavigationView { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_calendar_month.xml:18
+-keep class com.google.android.material.picker.MaterialCalendarGridView { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_layout_snackbar.xml:18
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/design_layout_snackbar.xml:18
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_layout_snackbar_include.xml:18
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/design_layout_snackbar_include.xml:18
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(...); }
+
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_my_services.xml:69
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_my_requests.xml:64
+-keep class com.google.android.material.tabs.TabLayout { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_picker_text_input_date_range.xml:32
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_picker_text_input_date.xml:31
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_picker_text_input_date_range.xml:26
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/mtrl_picker_text_input_date.xml:26
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(...); }
+
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/text_view_without_line_height.xml:17
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/text_view_with_theme_line_height.xml:17
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/text_view_with_line_height_from_style.xml:17
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/text_view_with_line_height_from_layout.xml:17
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/9d3bcfbe5fd6b66cf17ac5482f6bfda3/res/layout/text_view_with_line_height_from_appearance.xml:17
+-keep class com.google.android.material.textview.MaterialTextView { <init>(...); }
+
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_profile.xml:252
+-keep class com.onewayit.veki.utilities.MultiSelectionSpinner { <init>(...); }
+
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_proposal_received.xml:7
+-keep class com.sothree.slidinguppanel.SlidingUpPanelLayout { <init>(...); }
+
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/my_proposal.xml:9
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/marker_details.xml:8
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_request_details.xml:76
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_request_detail.xml:81
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_feedback.xml:27
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/feedback.xml:14
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/custom_marker_layout.xml:12
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/activity_request_detail.xml:83
+-keep class de.hdodenhof.circleimageview.CircleImageView { <init>(...); }
+
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_requests_posted.xml:47
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_proposal_received.xml:155
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_pending_requests.xml:47
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_ongoing_services.xml:47
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_notification.xml:114
+# Referenced at /Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/src/main/res/layout/fragment_completed_services.xml:45
+# Referenced at /Users/mac/.gradle/caches/transforms-2/files-2.1/90eb7eccc5e6745dd9eb8bc5378d5faf/res/layout/fancygifdialog.xml:26
+-keep class pl.droidsonroids.gif.GifImageView { <init>(...); }
+

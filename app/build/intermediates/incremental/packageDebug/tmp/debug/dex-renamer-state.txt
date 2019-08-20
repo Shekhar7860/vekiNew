@@ -1,0 +1,4 @@
+#Tue Aug 20 12:42:35 IST 2019
+base.0=/Users/mac/Downloads/veki-1-1-2 2 2/veki-1-1-2/veki/app/build/intermediates/transforms/r8/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

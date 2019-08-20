@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.RegistrationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="30dp"
+                android:background="@color/white"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:visibility="gone">
+
+                    <androidx.appcompat.widget.AppCompatCheckBox
+                        android:id="@+id/service_provider"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/service_provider"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/regular_text" />
+
+                    <androidx.appcompat.widget.AppCompatCheckBox
+                        android:id="@+id/customer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/customer"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/regular_text" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_loc"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#F7F7F7"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="@string/name"
+                    android:inputType="text"
+                    android:padding="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/regular_text"
+                    tools:ignore="Autofill" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_loc"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#F7F7F7"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="@string/email_address"
+                    android:inputType="textEmailAddress"
+                    android:padding="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/regular_text"
+                    tools:ignore="Autofill" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_loc"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#F7F7F7"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <FrameLayout
+                    android:id="@+id/mobileLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Spinner
+                        android:id="@+id/spinner_code"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:entries="@array/countryCodes"
+                        android:gravity="center_vertical"
+                        android:padding="15dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/small_text" />
+
+                    <EditText
+                        android:id="@+id/mobile_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="100dp"
+                        android:background="@null"
+                        android:ems="10"
+                        android:hint="@string/mobile_number"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:padding="15dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/regular_text"
+                        android:textStyle="bold">
+
+                        <requestFocus />
+                    </EditText>
+
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_loc"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#F7F7F7"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="Enter password"
+                    android:inputType="textPassword"
+                    android:padding="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/regular_text"
+                    android:visibility="visible"
+                    tools:ignore="Autofill" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_loc"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#F7F7F7"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <EditText
+                    android:id="@+id/confirm_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="@string/re_enter_password"
+                    android:inputType="textPassword"
+                    android:padding="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/regular_text"
+                    android:visibility="visible"
+                    tools:ignore="Autofill" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/submit"
+                style="@style/TextAppearance.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rectangle_circular_ends"
+                android:backgroundTint="@color/navy_blue"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:textSize="@dimen/regular_text"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toStartOf="@+id/text_one"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/text_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/signup_with"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/small_text" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/text_one"
+                    android:background="@color/black" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/phone"
+                    style="@style/Widget.AppCompat.TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/rectangle_circular_ends"
+                    android:backgroundTint="@color/light_grey"
+                    android:gravity="center"
+                    android:text="@string/phone"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/regular_text" />
+
+                <TextView
+                    android:id="@+id/facebook"
+                    style="@style/Widget.AppCompat.TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/rectangle_circular_ends"
+                    android:backgroundTint="@color/navy_blue"
+                    android:gravity="center"
+                    android:text="@string/facebook"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/regular_text" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/already_have_an_acc"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/small_text" />
+
+                <TextView
+                    android:id="@+id/login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:text="@string/login"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/small_text"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tv_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="Registering.."
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/my_progressBar"
+            style="@style/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@+id/tv_loading"
+            android:layout_gravity="bottom"
+            android:layout_margin="20dp"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

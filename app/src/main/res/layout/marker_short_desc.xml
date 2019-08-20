@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="230dp"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/img_placehol" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/profile_image"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bosch Car Repair "
+            android:textColor="@color/black"
+            android:textSize="@dimen/regular_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/time_ago"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:maxLines="2"
+            android:text="5 km awayCar Servicing Hot Deals : Petrol Cars (New Delhi/NCR). NOTE: For Diesel ... Type, Hatchback ... Thanks. We take care of your car SERIOUSLY all through year."
+            android:textSize="@dimen/small_text" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="3 Km away"
+        android:textSize="@dimen/small_text" />
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/distance"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/ic_star" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/distance"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/star"
+        android:text="0.0 (0 reviews)"
+        android:textSize="@dimen/small_text" />
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/rating"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:src="@mipmap/ic_call" />
+
+    <TextView
+        android:id="@+id/mobile_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rating"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@+id/phone"
+        android:text="+91 87564 00032"
+        android:textSize="@dimen/small_text" />
+
+    <TextView
+        android:id="@+id/tv_hire"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/mobile_number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_circular_ends"
+        android:backgroundTint="@color/colorPrimary"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="Hire"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobile_number"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@+id/mobile_number"
+        android:gravity="end|center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_dollar"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/ic_dollar" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_dollar"
+            android:text="340"
+            android:textColor="@color/green"
+            android:textSize="@dimen/small_text" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">veki</string>
+    <!-- Login Screen  -->
+    <string name="login">Log In</string>
+    <string name="facebook">Facebook</string>
+    <string name="or_use_your_mobile">or use your mobile</string>
+    <string name="request_otp">Request OTP</string>
+    <string name="dont_have_acc">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="heading">Heading</string>
+    <!--Email Login Screen-->
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_user_here">New user here?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="submit">Submit</string>
+    <!--Registration-->
+    <string name="name">Name</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="signup_with">Signup wirh</string>
+    <string name="phone">Phone</string>
+    <string name="already_have_an_acc">Already have an account?</string>
+    <string name="service_provider">Service Provider</string>
+    <string name="customer">Customer</string>
+    <!-- Verify Otp -->
+    <string name="we_sent_you">Enter One Time Password (OTP)</string>
+    <string name="sent_to">Sent to +918888888888</string>
+    <string name="i_didnt_receive">Didn\'t receive OTP?</string>
+    <string name="resend">Resend</string>
+
+    <!-- Profile Screen -->
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="cont">Continue</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="facebook_app_id">453033481961735</string>
+    <string name="fb_login_protocol_scheme">fb453033481961735</string>
+    <!-- Select Role Screen -->
+    <string name="title_activity_maps">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="visa">Visa</string>
+    <string name="cash">Cash</string>
+
+    <!--Feedback-->
+    <string name="type">Write your review here..</string>
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!-- New Request -->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <!--NEW ADD-->
+
+
+    <string-array name="countryCodes">
+        <item>+91(IN)</item>
+        <item>+972(IL)</item>
+        <item>+962(JO)</item>
+    </string-array>
+    -
+
+</resources>

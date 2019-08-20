@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#F7F7F7"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_image"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="#E6E6E6"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_placehol"
+                    android:visibility="visible" />
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:id="@+id/my_request_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/cv_image"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manish Sharma"
+                    android:textSize="@dimen/regular_text"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/time_ago"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:text="10 minutes ago"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/small_text" />
+
+                <TextView
+                    android:id="@+id/acci_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name"
+                    android:text="Car Accident"
+                    android:textSize="@dimen/small_text" />
+
+                <TextView
+                    android:id="@+id/distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/acci_type"
+                    android:layout_marginTop="5dp"
+                    android:text="4.5 km away"
+                    android:textSize="@dimen/small_text" />
+
+                <ImageView
+                    android:id="@+id/star"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/acci_type"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/distance"
+                    android:src="@mipmap/ic_star" />
+
+                <TextView
+                    android:id="@+id/rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/acci_type"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/star"
+                    android:text="0.0 (0 reviews)"
+                    android:textSize="@dimen/small_text" />
+
+                <ImageView
+                    android:id="@+id/phone"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_below="@+id/rating"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="4dp"
+                    android:src="@mipmap/ic_call"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/mobile_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rating"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/phone"
+                    android:text="+91 87564 00032"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/small_text"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

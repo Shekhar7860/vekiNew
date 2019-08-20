@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F7F7F7"
+    android:padding="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="60dp"
+        android:layout_height="96dp"
+        android:src="@drawable/img_placehol" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/profile_image"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kevin Peterson"
+            android:textSize="@dimen/regular_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/time_ago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="10 minutes ago"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/small_text" />
+
+        <TextView
+            android:id="@+id/acci_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:text="Car Accident"
+            android:textSize="@dimen/small_text" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/acci_type"
+            android:layout_marginTop="10dp"
+            android:text="4.5 km away"
+            android:textSize="@dimen/small_text" />
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/acci_type"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/distance"
+            android:src="@mipmap/ic_star" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/acci_type"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/view_details"
+            android:layout_toRightOf="@+id/star"
+            android:singleLine="true"
+            android:text="4.6 (170 reviews)"
+            android:textSize="@dimen/small_text" />
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/rating"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_call"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/mobile_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rating"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/phone"
+            android:text="+91 87564 00032"
+            android:textSize="@dimen/small_text"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/view_details"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/rating"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/circular_ends"
+            android:backgroundTint="@color/navy_blue"
+            android:gravity="center"
+            android:text="View Details"
+            android:textColor="@color/white"
+            android:textSize="@dimen/small_text" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        tools:ignore="MissingConstraints">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:src="@drawable/common_google_signin_btn_icon_light_normal"
+
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/profile_image"
+            android:paddingTop="10dp"
+            android:text="Manish Sharma"
+            android:textSize="@dimen/regular_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@+id/profile_image"
+            android:text="Great Service"
+            android:textSize="@dimen/small_text" />
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/comment"
+            android:layout_toRightOf="@+id/profile_image"
+            android:src="@mipmap/ic_star" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/comment"
+            android:layout_toRightOf="@+id/star"
+            android:text="4.6"
+            android:textSize="@dimen/small_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/comment"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/rating"
+            android:text="2019-10-12"
+            android:textSize="@dimen/small_text" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

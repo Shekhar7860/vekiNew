@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">888419202531-kvrblgef2lde8mnq2sqk0rbcaoenvc82.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://veki-1558456184520.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">888419202531</string>
+    <string name="google_api_key" translatable="false">AIzaSyDZo2ap3LUa6gmJUjXxXEk494u0NfT9l3o</string>
+    <string name="google_app_id" translatable="false">1:888419202531:android:4eb3535c12408a57</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDZo2ap3LUa6gmJUjXxXEk494u0NfT9l3o</string>
+    <string name="google_storage_bucket" translatable="false">veki-1558456184520.appspot.com</string>
+    <string name="project_id" translatable="false">veki-1558456184520</string>
+</resources>
